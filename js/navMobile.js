@@ -1,5 +1,5 @@
 const hamburger = document.getElementById('hamburger');
-let navMobile = document.getElementById('navMobile');
+const navMobile = document.getElementById('navMobile');
 
 navMobile.style.display = 'none';
 

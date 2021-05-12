@@ -1,0 +1,73 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  cursor: pointer;
+}
+  img:hover {
+    
+  }
+
+#price {
+  margin: 0 auto;
+  font: var(--font1);
+  font-size: 1.5em;
+  text-align: center;
+  padding: 30px;
+}
+
+#buyButton {
+  width: 30%;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: var(--color1);
+  font-family: var(--font2);
+  font-size: 1em;
+  color: white;
+  text-align: center;
+}
+  #buyButton:hover {
+    background-color: #006666;
+  }
+
+
+/* =========================== Modal styles */
+#modal {
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+  #modal img {
+    width: 98%;
+    max-width: 790px;
+    height: auto;
+    border: 5px solid white;
+    cursor: default;
+  }
+  #modal img:hover {
+    opacity: 1;
+  }
+
+#closeModal {
+  display: none;
+  position: fixed;
+  top: 1vh;
+  right: 2vw;
+  font-family: var(--font2), sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+  #closeModal:hover {
+    color: darkgoldenrod;
+  }
