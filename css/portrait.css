@@ -2,10 +2,15 @@ img {
   display: block;
   width: 50%;
   margin: 0 auto;
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 #modal img {
-  width: 70%;
-  max-width: 400px;
+  max-height: 80vh;
+  width: auto;
+  max-width: 90vw;
 }
+  #modal img:hover {
+    opacity: 1;
+    cursor: zoom-out;
+  }

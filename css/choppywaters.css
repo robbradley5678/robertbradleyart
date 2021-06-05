@@ -4,10 +4,9 @@ a {
 
 img {
   width: 100%;
-  cursor: pointer;
+  cursor: zoom-in;
 }
   img:hover {
-    
   }
 
 #price {
@@ -44,6 +43,7 @@ img {
   height: 100%;
   width: 100%;
   background-color: rgba(0,0,0,0.8);
+  z-index: 2;
 }
   #modal img {
     width: 98%;
@@ -54,6 +54,7 @@ img {
   }
   #modal img:hover {
     opacity: 1;
+    cursor: zoom-out;
   }
 
 #closeModal {
