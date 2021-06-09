@@ -58,7 +58,7 @@ a:hover {
 header {
   position: sticky;
   top: 0;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.95) 80%, rgba(255,255,255,0));
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.95) 75%, rgba(255,255,255,0));
   /* Below to stop Gallery image hover opacity overlapping header */
   opacity: 0.99;
   z-index: 1;
