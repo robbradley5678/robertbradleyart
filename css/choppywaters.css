@@ -1,6 +1,10 @@
-a {
+main a {
   text-decoration: none;
+  font-weight: bold;
 }
+  main a:hover {
+    text-decoration: underline;
+  }
 
 img {
   width: 100%;
@@ -46,9 +50,9 @@ img {
   z-index: 2;
 }
   #modal img {
-    width: 98%;
-    max-width: 790px;
-    height: auto;
+    max-height: 90vh;
+    width: auto;
+
     border: 5px solid white;
     cursor: default;
   }
@@ -72,3 +76,10 @@ img {
   #closeModal:hover {
     color: darkgoldenrod;
   }
+
+#disclamer {
+  padding: 2%;
+  background-color: ghostwhite;
+  font-size: 1rem;
+  color: var(--color1);
+}

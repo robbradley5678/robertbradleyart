@@ -4,13 +4,3 @@ img {
   margin: 0 auto;
   cursor: zoom-in;
 }
-
-#modal img {
-  max-height: 80vh;
-  width: auto;
-  max-width: 90vw;
-}
-  #modal img:hover {
-    opacity: 1;
-    cursor: zoom-out;
-  }

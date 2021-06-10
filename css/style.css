@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  max-width: 960px;
+  max-width: 1280px;
   margin: auto;
   margin-top: 10px;
 }
@@ -36,7 +36,7 @@ h1 {
 p {
   font-family: var(--font2), sans-serif;
   color: var(--color2);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 a {

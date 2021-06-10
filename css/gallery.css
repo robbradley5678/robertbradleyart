@@ -23,6 +23,8 @@ main {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .photoContainer {
@@ -58,7 +60,7 @@ main {
 }
 
 .photoContainer img:hover {
-  opacity: 0.9;
-  transition: 0.25s;
+  opacity: 0.85;
+  transition: 0.3s;
   z-index: 0;
 }
