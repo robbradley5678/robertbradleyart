@@ -56,6 +56,13 @@ img {
     border: 5px solid white;
     cursor: default;
   }
+  @media only screen and (max-width: 750px) {
+    #modal img{
+      max-width: 100vw;
+      height: auto;
+    }
+  }
+
   #modal img:hover {
     opacity: 1;
     cursor: zoom-out;
@@ -71,7 +78,7 @@ img {
   font-weight: bold;
   color: white;
   cursor: pointer;
-  z-index: 2;
+  z-index: 3;
 }
   #closeModal:hover {
     color: darkgoldenrod;

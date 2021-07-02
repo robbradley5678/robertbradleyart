@@ -1,15 +1,14 @@
 /* =========================== Body styles */
-
 :root {
   --color1: #008B8B;
   --color2: #333333;
-  --font1: 'Quattrocento';
-  --font2: 'Comfortaa';
-  --font3: 'Dancing Script';
+  --font1: 'Quattrocento', 'Bell MT', serif;
+  --font2: 'Comfortaa', sans-serif;
+  --font3: 'Dancing Script', 'Script MT', serif;
 }
 
 * {
-//border: 1px solid lightgrey;
+border: 1px solid lightgrey;
 }
 
 html {
@@ -20,10 +19,10 @@ html {
   box-sizing: inherit;
 }
 
-body {
+main {
   max-width: 1280px;
   margin: auto;
-  margin-top: 10px;
+  padding: 0 10px;
 }
 
 h1 {
@@ -50,7 +49,7 @@ a:hover {
 
 @media only screen and (max-width: 965px) {
     body {
-      margin: 10px;
+      margin: 0 10px;
     }
 }
 
@@ -58,7 +57,7 @@ a:hover {
 header {
   position: sticky;
   top: 0;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.95) 75%, rgba(255,255,255,0));
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0));
   /* Below to stop Gallery image hover opacity overlapping header */
   opacity: 0.99;
   z-index: 1;
@@ -117,16 +116,17 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: rgba(255, 255, 255, 0.95);
   }
 
   #navMobile a {
     display: block;
+    padding-bottom: 30px;
     padding-right: 10px;
     font-family: var(--font2);
     text-align: right;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-decoration: none;
     color: var(--color1);
   }
