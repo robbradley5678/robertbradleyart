@@ -10,6 +10,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stlesheet">
   <link href="..\css\style.css" rel="stylesheet">
   <link href="..\css\choppywaters.css" rel="stylesheet">
+  <link href="..\css\contact.css" rel="stylesheet">
 
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -60,8 +61,34 @@
   <main>
     <h1>Contact Me</h1>
       <p>To get in touch, please fill out the form below, and I'll get back to you as soon as I can.</p>
+      <br>
 
-      <form class="" action="index.html" method="post">
+      <!-- Formspree
+      <form action="https://formspree.io/f/xgerzpar" method="POST">
+      -->
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>
+              Your name:
+              <input type="text" class="formField"></input>
+            </label>
+          </p>
+          <p>
+            <label>
+              Your email:
+              <input type="email" name="_replyto" class="formField">
+            </label>
+          </p>
+          <p>
+            <label>
+              Your message:
+              <textarea name="message" class="formField"></textarea>
+            </label>
+          </p>
+
+        <div class="centerButton">
+          <button type="submit">Send</button>
+        </div>
 
       </form>
 

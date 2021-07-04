@@ -1,0 +1,22 @@
+form, .formField {
+  font-family: var(--font2), sans-serif;
+  color: var(--color2);
+  font-size: 1.2rem;
+}
+
+
+.formField {
+  width: 100%;
+  border: 2px solid lightgrey;
+  padding: 15px;
+  margin: 10px 0;
+}
+.formField:focus {
+  outline: none;
+  border: 2px solid var(--color1);
+
+}
+
+.centerButton {
+  text-align: center;
+}

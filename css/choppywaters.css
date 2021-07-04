@@ -15,24 +15,28 @@ img {
 
 #price {
   margin: 0 auto;
-  font: var(--font1);
-  font-size: 1.5em;
+  font-family: var(--font2);
+  font-size: 2rem;
   text-align: center;
   padding: 30px;
 }
 
 #buyButton {
-  width: 30%;
-  padding: 10px;
+  width: 25%;
+  padding: 12px 32px;
   margin: 0 auto;
-  background-color: var(--color1);
-  font-family: var(--font2);
-  font-size: 1em;
-  color: white;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  background-color: white;
+  font-family: var(--font2), sans-serif;
+  font-size: 1.2rem;
+  color: var(--color1);
   text-align: center;
+  cursor: pointer;
 }
   #buyButton:hover {
-    background-color: #006666;
+    background-color: var(--color1);
+    color: white;
   }
 
 

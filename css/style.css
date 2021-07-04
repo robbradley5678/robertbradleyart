@@ -13,6 +13,7 @@
 
 html {
   box-sizing: border-box;
+  max-width: 1980px;
 }
 
 *, *:before, *:after {
@@ -28,6 +29,13 @@ main {
 h1 {
   font-family: var(--font1), serif;
   font-size: 2.5rem;
+  color: var(--color1);
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font1);
+  font-size: 2rem;
   color: var(--color1);
   text-align: center;
 }
@@ -122,8 +130,7 @@ nav {
 
   #navMobile a {
     display: block;
-    padding-bottom: 30px;
-    padding-right: 10px;
+    padding: 15px 10px 15px 0;
     font-family: var(--font2);
     text-align: right;
     font-size: 2.5rem;
@@ -244,6 +251,25 @@ main {
       width: 70%;
     }
   }
+
+button {
+  padding: 12px 32px;
+  margin: 10px;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  background-color: white
+  font-family: var(--font2), sans-serif;
+  font-size: 1.2rem;
+  color: var(--color1);
+  text-align: center;
+  cursor: pointer;
+}
+  button:hover {
+    background-color: var(--color1);
+    color: white;
+  }
+
+
 
 /* ========================== Footer styles*/
 
